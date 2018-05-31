@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Student Grade Sheet</title>
+	<!-- meta tags for webcrawlers -->
+    <meta name="keywords" content="Student, Grade, Sheet, Score"/>
+    <meta name="description" content="This is a student grading web application"/>
+    <meta name="author" content="Ebenezer Makinde"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+    <meta charset="utf-8">
+    <!-- responsive css -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Boostrap css -->
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+        <!-- fontawesome -->
+    <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.css">
+	<!--Student Grade sheet css path -->
+	<link rel="stylesheet" type="text/css" href="css/studentgradesheet.css">
+
+</head>
+<body>
+
+	<table id="tabgrade">
+		<tr>
+			<th>Student</th>
+			<th>Score</th>
+			<th>Grade</th>
+		</tr>
+
+		<tr>
+			<td>English</td>
+			<td><input type="text" name="engscore" id="engscore" value=""></td>
+			<td><input type="text" name="gradeng" id="gradeng" value=""></td>
+		</tr>
+
+		<tr>
+			<td>Maths</td>
+			<td><input type="text" name="mathscore" id="mathscore" value=""></td>
+			<td><input type="text" name="gradmath" id="gradmath" value=""></td>
+		</tr>
+
+		<tr>
+			<td>Chemistry</td>
+			<td><input type="text" name="chemscore" id="chemscore" value=""></td>
+			<td><input type="text" name="gradchem" id="gradchem" value=""></td>
+		</tr>
+
+		<tr>
+			<td>Biology</td>
+			<td><input type="text" name="bioscore" id="bioscore" value=""></td>
+			<td><input type="text" name="gradbio" id="gradbio" value=""></td>
+		</tr>
+
+		<tr>
+			<td>French</td>
+			<td><input type="text" name="frenscore" id="frenscore" value=""></td>
+			<td><input type="text" name="gradfren" id="gradfren" value=""></td>
+		</tr>
+
+         <tr>
+           	<td>
+            	<input type="button" name="getresult" id="getresult" value="Get Result">
+            </td>	
+         </tr>
+	</table>
+
+	<div class="total">
+			<h4>TOTAL</h4>
+			<span id="totalspan">236</span>
+	</div>
+
+	<br><br><br><br>
+
+	<div class="total">
+		<h4>Remarks</h4>
+		<span id="remarks">Very Proud of You!</span>
+	</div>
+
+	<br><br><br><br>
+
+	<div class="total">
+		<h4>Average</h4>
+		<span id="average">71.6</span>
+	</div>
+
+	<table id="tabpass">
+		<tr>
+			<td><label>Password</label></td>
+			<td><input type="password" name="passwd" id="passwd" value=""></td>
+		</tr>
+	</table>
+
+<script type="text/javascript" src="js/studentgradesheet.js"></script>
+</body>
+</html>

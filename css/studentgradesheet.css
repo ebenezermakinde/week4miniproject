@@ -1,0 +1,59 @@
+/*
+Scope: Student Grade Sheet;
+Author: Ebenezer Makinde;
+Tel: 08033291570;
+Date: 26/05/2018;
+*/
+
+#tabgrade{
+
+	border: 0px solid green;
+	width: 50%;
+	margin-top:10px;
+	margin-left:10px;
+	border-collapse: separate;
+	border-spacing: 15px;
+}
+
+.total{
+
+	margin-left: 30px;
+}
+
+h4{
+	display: inline;
+}
+
+#totalspan{
+	border:1px solid red;
+	margin-left: 125px;
+}
+
+#remarks{
+	border:1px solid red;
+	margin-left: 110px;
+}
+
+#average{
+	border:1px solid red;
+	margin-left: 120px;
+
+}
+
+#tabpass{
+	margin-left:12px;
+	border-collapse: separate;
+	border-spacing: 15px;
+	
+}
+
+#remarks{
+	border: none;
+}
+
+#iconremark{
+
+	font-size: 30px;
+	color: blue;
+	border: none;
+}
